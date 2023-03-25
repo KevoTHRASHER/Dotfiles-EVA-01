@@ -4,7 +4,8 @@
 Archivos de configuración de mi WorkStation, tema inspirada en el anime <code style="color : purple"><b><i>Neon Genesis EVANGELION</i></b></code>
 <br/>
 
-#   Sistema Operativo, Aplicaciones y Herramientas.
+<h3 align="center">Sistema Operativo, Aplicaciones y Herramientas.</h3>
+
 * SO -  ArchLinux
 * Window Manager -  BSPWM
 * Shell -   ZSH
