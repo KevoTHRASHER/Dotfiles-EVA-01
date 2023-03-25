@@ -1,6 +1,6 @@
 <h1 style="color: purple" align="center">Dotfiles EVA-01</h1>
 <br/>
-Archivos de configuración de mi WorkStation, la cual corre la distribución ArchLinux y esta inspirada en el anime **_Neon Genesis EVANGELION_**
+Archivos de configuración de mi WorkStation, la cual corre la distribución ArchLinux y esta inspirada en el anime <b><i>Neon Genesis EVANGELION</i></b>
 
 * Window Manager -  BSPWM
 * Shell -   ZSH
