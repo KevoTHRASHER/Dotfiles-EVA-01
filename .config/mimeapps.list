@@ -1,0 +1,19 @@
+[Default Applications]
+text/html=google-chrome.desktop
+x-scheme-handler/http=google-chrome.desktop
+x-scheme-handler/https=google-chrome.desktop
+x-scheme-handler/about=google-chrome.desktop
+x-scheme-handler/unknown=google-chrome.desktop
+text/x-java=userapp-kitty -e nvim-I8X9Y1.desktop
+text/plain=userapp-kitty -e nvim-I8X9Y1.desktop
+text/x-install=userapp-kitty -e nvim-I8X9Y1.desktop
+
+[Added Associations]
+text/plain=userapp-kitty -e nvim-I8X9Y1.desktop;
+text/html=userapp-kitty -e nvim-I8X9Y1.desktop;nvim.desktop;
+text/x-install=userapp-kitty -e nvim-I8X9Y1.desktop;
+application/pdf=org.pwmt.zathura-pdf-mupdf.desktop;
+
+[Removed Associations]
+text/plain=userapp-kitty -e nvim -F-SDW8Y1.desktop;
+text/x-java=userapp-kitty -e nvim-3FSNY1.desktop;
