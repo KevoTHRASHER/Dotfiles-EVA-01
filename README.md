@@ -29,9 +29,9 @@ Dotfiles for NeoVim in LUA language
 
 ##      Plugins 
 
-- **nvim-treesitter** -> Plugin is based on three interlocking features: language parsers, queries, and modules, where modules provide features like HIGHLIGHTING.
-- **nvim-tree** -> File Explorer For NeoVim written in LUA. -> *Dependencies* -> nvim-web-devicons.
-- **lualine** -> NeoVim StatusLine written in LUA.
+- **[nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)** -> Plugin is based on three interlocking features: language parsers, queries, and modules, where modules provide features like HIGHLIGHTING.
+- **[nvim-tree](https://github.com/nvim-tree/nvim-tree.lua)** -> File Explorer For NeoVim written in LUA. -> *Dependencies* -> nvim-web-devicons.
+- **[lualine](https://github.com/nvim-lualine/lualine.nvim)** -> NeoVim StatusLine written in LUA.
 
 
 ###     Themes
