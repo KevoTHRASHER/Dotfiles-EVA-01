@@ -19,20 +19,18 @@ Dotfiles for NeoVim in LUA language
 
 ##      Plugin Manager
 
-LazyVim
+[LazyVim](https://github.com/folke/lazy.nvim)
 
 ##      Plugins 
 
-- **nvim-treesitter -> Plugin is based on three interlocking features: language parsers, queries, and modules, where modules provide features like HIGHLIGHTING.
+- **nvim-treesitter** -> Plugin is based on three interlocking features: language parsers, queries, and modules, where modules provide features like HIGHLIGHTING.
 - **nvim-tree** -> File Explorer For NeoVim written in LUA. -> *Dependencies* -> nvim-web-devicons.
 - **lualine** -> NeoVim StatusLine written in LUA.
 
 
-
-
 ###     THEMES
 
-- spaceduck -> ENABLED.
-- catppucin -> Disabled.
-- tokyonight -> Disabled.
+- [spaceduck](https://github.com/spaceduck-theme/nvim) -> ENABLED.
+- [catppucin](https://github.com/catppuccin/catppuccin) -> Disabled.
+- [tokyonight](https://github.com/folke/tokyonight.nvim) -> Disabled.
 
