@@ -25,7 +25,7 @@ Dotfiles for NeoVim in LUA language
 
 ##      Plugin Manager
 
-## [LazyVim](https://github.com/folke/lazy.nvim)
+[LazyVim](https://github.com/folke/lazy.nvim)
 
 ##      Plugins 
 
