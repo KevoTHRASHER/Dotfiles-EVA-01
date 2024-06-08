@@ -1,4 +1,4 @@
-<h1 style="color: purple" align="center">Dotfiles EVA-01</h1>
+<h1 style="color: purple" align="center">EVA-01</h1>
 
 Archivos de configuración de mi WorkStation, tema inspirada en el anime <code style="color : purple"><b><i>Neon Genesis EVANGELION</i></b></code>
 
@@ -12,4 +12,27 @@ Archivos de configuración de mi WorkStation, tema inspirada en el anime <code s
 * Música -  Spotify-TUI con el servicio spotifyd
 * Reproductor de Video -    MPV & VLC probablemente lo elimine
 * Lector PDF -  Zathura
+
+<h1 align="center">NeoVim</h1>
+
+Dotfiles for NeoVim in LUA language
+
+##      Plugin Manager
+
+LazyVim
+
+##      Plugins 
+
+- **nvim-treesitter -> Plugin is based on three interlocking features: language parsers, queries, and modules, where modules provide features like HIGHLIGHTING.
+- **nvim-tree** -> File Explorer For NeoVim written in LUA. -> *Dependencies* -> nvim-web-devicons.
+- **lualine** -> NeoVim StatusLine written in LUA.
+
+
+
+
+###     THEMES
+
+- spaceduck -> ENABLED.
+- catppucin -> Disabled.
+- tokyonight -> Disabled.
 
