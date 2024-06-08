@@ -8,12 +8,12 @@ xrandr --output HDMI1 --primary --mode 1920x1080 --rotate normal --rate 60 --out
 #xrandr --output HDMI3 --primary --mode 1920x1080 --rotate normal --rate 60 --output LVDS1 --mode 1366x768 --rotate normal --rate 60 --right-of HDMI3
 ####		WORK
 #xrandr --outpout LVDS1 --primary --mode 1366x768 --rotate normal --rate 60 --output HDMI3 --mode 1920x1080 --rotate normal --rate 60 --right-of LVDS1
-feh --no-fehbg --bg-scale '/home/eva-01/Pictures/Backgrounds/Anime & Manga/Chicas Anime Manga/7.jpg' &
+feh --no-fehbg --bg-scale '/home/eva-01/Pictures/Backgrounds/Anime & Manga/Chicas Anime Manga/4.jpg' &
 #wmname LG3D &
 ####		HOME LAPTOP
 #bspc monitor -d LVDS1 I II III IV V
 ####		HOME ELITEDESK
-bspc monitor -d HDMI1 I II III IV
+bspc monitor -d HDMI1 I II III IV V
 ####		WORK
 #bspc monitor -d LVDS1 I II III
 #bspc monitor -d HDMI3 IV V VI

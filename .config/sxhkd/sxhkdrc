@@ -11,7 +11,11 @@ super + Return
 super + BackSpace
 	google-chrome-stable
 
-# program launcher
+# thunar
+super + a
+    thunar
+
+# program launcher ROFI
 super + @space
 	rofi -show run -font "JetBrains Mono Medium 10" -show-icons icon-theme "Papirus"
 
@@ -143,6 +147,9 @@ XF86AudioRaiseVolume
 	amixer set Master 5%+
 XF86AudioMute
     pactl set-sink-mute @DEFAULT_SINK@ toggle
+#XF86AudioMute
+#    amixer set Master toggle
+
     #amixer -q -c 0 sset 'Headphone',1 toggle
 ####        To mute:
 #pactl set-sink-mute @DEFAULT_SINK@ true
