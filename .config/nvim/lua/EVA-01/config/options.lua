@@ -3,12 +3,12 @@ vim.g.netrw_liststyle = 3--vim.cmd("let g:netrw_liststyle = 3")
 --              GENERAL CONFIG
 
 vim.opt.ttyfast = true--set ttyfast
---vim.opt.syntax= ON--syntax on                                 BY DEFAULT
+vim.opt.syntax= ON--syntax on                                 BY DEFAULT
 --vim.opt.nocompatible = true--set nocompatible                 BY DEFAULT
 vim.opt.magic = true--set magic
 vim.opt.encoding = 'UTF-8'--set encoding=UTF-8
-vim.opt.fileencodings = 'UTF-8'--set fileencodings=UTF-8
 vim.opt.fileencoding = 'UTF-8'--set fileencoding=UTF-8
+vim.opt.fileencodings = 'UTF-8'--set fileencodings=UTF-8
 vim.opt.fileformats = {'unix','dos','mac'}--gives eol formats
 --vim.cmd('filetype plugin on')                                 BY DEFAULT
 --vim.cmd('filetype indent on')                                 BY DEFAULT
@@ -40,9 +40,9 @@ vim.opt.number = true--set number
 vim.opt.relativenumber = true--set relativenumber
 vim.opt.numberwidth = 1--set numberwidth=1
 vim.opt.cursorline = true--set cursorline
---vim.opt.cursorlineopt = "number"
+vim.opt.cursorlineopt = "both"
 vim.opt.signcolumn = "auto"-- Keep signcolumn on by default
---vim.opt.browsedir = 'buffer'
+vim.g.browsedir = 'buffer'--vim.opt.browsedir = 'buffer'
 vim.opt.wrap = false--set hace que el texto de las lineas largas que sobrepasan el ancho de la pantalla siempre esten visibles
 
 --               COMPLETION OPTIONS
@@ -76,7 +76,8 @@ vim.opt.foldenable = true
 vim.opt.foldlevelstart = 99
 
 --|--                   RECOMMENT SECTION
-vim.wo.list=true
+--vim.wo.list=true
+vim.opt.list=true
 vim.opt.listchars = { tab = '|-', trail = '·', nbsp = '␣'}
 --      OTRAS
 --listchars = { eol = "↲", tab = "▶ ", trail = "•", precedes = "«", extends = "»", nbsp = "␣", space = "." },
@@ -91,13 +92,13 @@ vim.opt.listchars = { tab = '|-', trail = '·', nbsp = '␣'}
 --vim.opt.list = true
 --vim.opt.listchars = 'tab:»·,nbsp:+,trail:·,extends:→,precedes:←'
 
-------------------------------		SET SPLITS ORIENTATION
+------------------------------      SET SPLITS ORIENTATION
 --vim.opt.fillchars = {vert='|'}--set fillchars+=vert:│ or │ -- use a better vertsplit char
 vim.opt.fillchars = {vert='│'}--set fillchars+=vert:│ or │ -- use a better vertsplit char
-vim.opt.splitbelow = true--set splitbelow -- Horizontal splits will automatically be below
 vim.opt.splitright = true--set splitright -- Vertical splits will automatically be below
+vim.opt.splitbelow = true--set splitbelow -- Horizontal splits will automatically be below
 
------------------------------	    Set Default SEARCH HIGHLIGHTING"
+-----------------------------       Set Default SEARCH HIGHLIGHTING"
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
 vim.opt.hlsearch = true--set hlsearch
