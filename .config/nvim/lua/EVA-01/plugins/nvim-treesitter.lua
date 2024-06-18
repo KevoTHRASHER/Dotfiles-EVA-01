@@ -15,10 +15,16 @@ return {
             indent = {
                 enable = true,
             },
-            autotag = {
-                enable = true,
+--      En la nueva version de NeoVim 0.11.0 esta CONFIGURACION queda OBSOLETA y REMOVIDA
+--          require("nvim-ts-autotag").setup({
+--              opts = {    -- your setup here, or don't define for defaults
+--              },
+--          })
+--
+--            autotag = {
+--                enable = true,
 --                filetypes = { "html", "javascript", "xml", "php", "markdown" },
-            },
+--            },
 
             ensure_installed = {
                 "json",

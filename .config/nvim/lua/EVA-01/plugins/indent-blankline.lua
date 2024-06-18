@@ -1,4 +1,5 @@
 return {
+
     "lukas-reineke/indent-blankline.nvim",
     event = { "BufReadPre", "BufNewFile" },
     main = "ibl",
@@ -9,9 +10,16 @@ return {
 --            highlight = highlight,
         },
 --        scope = {
---            show_start = true,
---            show_end = true,
+--            enabled = true,
+--            show_start = false,
+--            show_end = false,
 --            highlight = highlight,
+--            include = {
+--                node_type = {
+--                    ['*'] = { '*' },
+--                },
+--            },
 --        },
+
     },
 }
