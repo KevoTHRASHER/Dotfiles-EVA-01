@@ -3,8 +3,8 @@ return {
     "nvim-lualine/lualine.nvim",
     dependencies = { 'nvim-tree/nvim-web-devicons' },
 --    enabled = false,
-    lazy = false,
-    priority = 1000,
+--    lazy = false,
+--    priority = 1000,
     opts = {
         options = {
             globalstatus = true,
